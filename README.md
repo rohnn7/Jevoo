@@ -1,0 +1,2 @@
+# Jevoo
+Jevoo is a Blogging web-app, which have two major component, first the ui panel. Here, the users can come and check blogs and also comment in those blog (Have to be logged in to comment) and Second is the Admin panel, where admin can create, delete, edit and retrieve all the blogs or series of blogs he has created. Jevoo has some more functionality, Like tagging the blogs, Search Engine and user search history.
