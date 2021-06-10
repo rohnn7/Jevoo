@@ -1,0 +1,21 @@
+.pageNavigation{
+    display: flex;
+    justify-content:center;
+}  
+
+.onNavigation{
+    font-size: 23px;
+    font-weight:bold;
+    margin:2px 25px 2px 25px ;
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.onNavigation:hover{
+    background: -webkit-linear-gradient(#fa5204, #fd9800, #fd7a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer
+}

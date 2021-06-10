@@ -1,0 +1,83 @@
+.verticalnavbaritems{
+    list-style: none;
+    flex-direction: column;
+    float: left;
+    max-width: 100%;
+}
+
+.verticalnavbaritem{
+    margin: 0px;
+    padding: 8px 200px 20px 5px;
+    border-radius: 7px;
+}
+
+.verticalnavbaritem a{   
+    color: white; 
+    display: block;
+    font-size: 20px;
+}
+
+
+
+
+a:hover{
+    color: #E23E57;
+    text-decoration: none;
+}
+
+.verticalnavbaritem:hover a{
+    color: #E23E57;
+}
+
+.verticalnavbaritem .icon{
+    font-size: 35px;
+}
+
+
+
+.circleScaleBtn {
+    width: 80%;
+    padding: 12px 24px 10px 5px;
+    color: hsl(243, 80%, 62%);
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.circleScaleBtn a {
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+
+.circleScaleBtn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    transform: translate3d(-50%,-50%,0) scale3d(0,0,0);
+    transition: opacity .4s cubic-bezier(.19,1,.22,1),transform .75s cubic-bezier(.19,1,.22,1);
+    background-color: #311D3F;
+    opacity: 0;
+}
+
+.circleScaleBtn:hover span {
+    color: hsl(222, 100%, 95%);
+}
+
+.circleScaleBtn:hover::before {
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 1.1s;
+    transform: translate3d(-50%,-50%,0) scale3d(1,1,1)
+}
+
+.active{
+    color:#e21f50 ;
+    font-weight: bolder;
+}

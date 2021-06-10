@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  header{
+      
+  }
+
+  .myNavbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  } 
+
+  .container{
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: 100%;
+    background:white; 
+  }
+  
+.heading{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: -70px;
+  margin-left: 60px;
+}
+
+.heading:hover{
+  cursor: pointer;
+}
+

@@ -1,0 +1,32 @@
+.username{
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.content{
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.date{
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.reply{
+    color:  #fda400;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.reply:hover{
+    cursor: pointer;
+}

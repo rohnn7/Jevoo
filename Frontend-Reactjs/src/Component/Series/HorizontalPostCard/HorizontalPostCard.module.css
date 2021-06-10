@@ -1,0 +1,185 @@
+.PostCardContainer{
+    display:flex;
+    padding-bottom: 50px;
+    height: 188px;
+    max-width: 100%;
+    border-radius: 20px;
+    
+}
+
+.PostCardContainer:hover{
+    cursor: pointer;
+    background: radial-gradient(ellipse at bottom, #828a92 0%, #9ea0ac 100%);
+    color: white;
+}
+
+
+.PostCardImageSectipn{
+    padding: 14px 15px 7px 10px;
+    
+}
+
+.PostCardDetailSection{
+    padding: 17px 10px 7px 20px;
+}
+
+
+
+.PostCardImage{
+    border-radius: 15px;
+    height:160px;
+    width:350px
+}
+
+.PostCardTitle{
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Inria Serif', serif;
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 3px 0px 3px 10px;    
+    overflow:hidden;
+    text-overflow: ellipsis; 
+}
+
+.PostCardDescription{
+    padding-left: 15px;
+    font-size:19px;
+    color:black;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-family: 'Inria Serif', serif;
+}
+.PostCardContainer:hover .PostCardDescription{
+    color:white;
+}
+
+@media screen and (max-width:750px){
+    .PostCardContainer{
+        
+        height: 180px;
+        max-width: 2000px;
+        
+        
+    }
+    .PostCardImageSectipn{
+        padding: 14px 5px 7px 10px;
+        
+    }
+    .PostCardDetailSection{
+        padding: 17px 10px 7px 5px;
+    }
+    .PostCardImage{
+        
+        height:142px;
+        max-width:300px
+    }
+    .PostCardTitle{
+        font-size: 25px;
+        font-weight:bold;
+        padding: 3px 0px 3px 10px;    
+        
+    }
+    .PostCardDescription{
+        padding-left: 15px;
+        font-size:16px;
+        
+    }
+}
+@media screen and (max-width:660px){
+    .PostCardContainer{
+        
+        height: 150px;
+        max-width: 2000px;
+        
+        
+    }
+    .PostCardImageSectipn{
+        padding: 14px 3px 7px 5px;
+        
+    }
+    .PostCardDetailSection{
+        padding: 10px 5px 7px 2px;
+    }
+    .PostCardImage{
+        
+        height:120px;
+        max-width:240px
+    }
+    .PostCardTitle{
+        font-size: 22px;
+        font-weight:bold;
+        padding: 3px 0px 3px 10px;    
+        
+    }
+    .PostCardDescription{
+        padding-left: 15px;
+        font-size:14px;
+        
+    }
+}
+@media screen and (max-width:570px){
+    .PostCardContainer{
+        
+        height: 150px;
+        max-width: 2000px;
+        
+        
+    }
+    .PostCardImageSectipn{
+        padding: 14px 1px 7px 5px;
+        
+    }
+    .PostCardDetailSection{
+        padding: 10px 5px 7px 1px;
+    }
+    .PostCardImage{
+        
+        height:120px;
+        max-width:200px
+    }
+    .PostCardTitle{
+        font-size: 20px;
+        font-weight:bold;
+        padding: 3px 0px 3px 10px;    
+        
+    }
+    .PostCardDescription{
+        padding-left: 15px;
+        font-size:13px;
+        
+    }
+}
+@media screen and (max-width:450px){
+    .PostCardContainer{
+        
+        height: 150px;
+        max-width: 2000px;
+        
+        
+    }
+    .PostCardImageSectipn{
+        padding: 14px 0px 7px 5px;
+        
+    }
+    .PostCardDetailSection{
+        padding: 10px 5px 7px 1px;
+    }
+    .PostCardImage{
+        
+        height:120px;
+        max-width:150px
+    }
+    .PostCardTitle{
+        font-size: 20px;
+        font-weight:bold;
+        padding: 3px 0px 0px 10px;    
+        
+    }
+    .PostCardDescription{
+        padding-left: 15px;
+        font-size:13px;
+        
+    }
+}

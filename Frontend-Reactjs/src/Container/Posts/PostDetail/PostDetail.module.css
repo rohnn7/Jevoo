@@ -1,0 +1,279 @@
+.postdetailContainer{
+    font-family: 'Inria Serif', serif;
+    background: white;
+    height: 100%;
+    
+}
+
+.preview{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.postdetailHeading{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;  
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.edit{
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;    
+}
+
+.displayBlock{
+    display: flex;
+    justify-content: space-around;
+}
+
+.toolBlock{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.date{
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    text-align: center;    
+    font-weight: bold;
+}
+
+.author{
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    text-align: center; 
+    font-style: italic;   
+    font-weight: bold;
+}
+
+.edit:hover{
+    background: -webkit-linear-gradient(#fa4a04, #fd7a00, #fdba00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.author:hover{
+    background: -webkit-linear-gradient(#fa4a04, #fd7a00, #fdba00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.postdetailWrapper{
+    padding: 10px 200px 10px 200px;
+    text-align: justify;
+    color: black;
+    font-size: 23px;
+    
+}
+
+.postdetailWrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.comments{
+    padding: 10px 200px 10px 200px;
+    font-weight: bold;
+}
+.reply{
+    padding-left: 50px ;
+
+    text-align: justify;
+}
+.postComment{
+    width: 90%;
+    padding: 10px;
+    border: 2px solid#fda400;
+    border-radius: 5px;
+}
+.postarea{
+    justify-content: space-between;
+}
+.postbutton{
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.postbutton:hover{
+    cursor: pointer;
+}
+
+.warning{
+    text-align: center;
+    font-weight:bold;
+    font-size:30px;
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.warning:hover{
+    color: white;
+}
+
+::-webkit-scrollbar { width: 20px; }
+
+::-webkit-scrollbar-track {
+  background: #0a0b10;
+  
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    border-radius: 200px;
+    
+  }
+
+  .pageNavigation{
+    display: flex;
+    justify-content:center;
+}  
+
+.onNavigation{
+    font-size: 23px;
+    font-weight:bold;
+    margin:2px 25px 2px 25px ;
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.onNavigation:hover{
+    background: -webkit-linear-gradient(#fa5204, #fd9800, #fd7a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer
+}
+.seriesNavigation{
+    font-size: 23px;
+    font-weight:bold;
+    text-align:center;
+    background: -webkit-linear-gradient(#fa6604, #fda400, #fdad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.seriesNavigation:hover{
+    background: -webkit-linear-gradient(#fa5204, #fd9800, #fd7a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer
+}
+
+
+
+  @media screen and (max-width:1100px){
+    .postdetailHeading{
+        font-size: 50px;
+    }  
+    .postdetailWrapper{
+        padding: 10px 150px 10px 150px;
+        font-size: 17px;
+    }
+    .comments{
+        padding: 10px 150px 10px 150px;
+    }
+    
+  }
+
+  @media screen and (max-width:950px){
+    .postdetailHeading{
+        font-size: 50px;
+    }  
+    .postdetailWrapper{
+        padding: 10px 100px 10px 100px;
+        font-size: 17px;
+    }
+    .comments{
+        padding: 10px 100px 10px 100px;
+    }
+    
+  }
+
+  @media screen and (max-width:800px){
+    .postdetailHeading{
+        font-size: 50px;
+    }  
+    .postdetailWrapper{
+        padding: 10px 100px 10px 100px;
+        font-size: 16px;
+    }
+    .comments{
+        padding: 10px 100px 10px 100px;
+    }
+    
+  }
+
+  @media screen and (max-width:700px){
+    .postdetailHeading{
+        font-size: 45px;
+    }  
+    .postdetailWrapper{
+        padding: 10px 50px 10px 50px;
+        font-size: 15px;
+        text-align: left;
+    }
+    .comments{
+        padding: 10px 50px 10px 50px;
+    }
+    .warning{
+        font-size:25px;
+    }
+    
+  }
+  @media screen and (max-width:450px){
+    .postdetailHeading{
+        font-size: 45px;
+    }  
+    .postdetailWrapper{
+        padding: 10px 10px 10px 50px;
+        font-size: 15px;
+        text-align: left;
+    }
+    .comments{
+        padding: 10px 10px 10px 50px;
+    }
+    .warning{
+        font-size:18px;
+        
+    }
+    
+  }
+  @media screen and (max-width:400px){
+    .postdetailHeading{
+        font-size: 42px;
+    }  
+    .postdetailWrapper{
+        padding: 10px 10px 10px 20px;
+        font-size: 15px;
+        text-align: left;
+    }
+    .comments{
+        padding: 10px 10px 10px 50px;
+    }
+    .warning{
+        font-size:16px;
+        
+    }
+    
+  }
+

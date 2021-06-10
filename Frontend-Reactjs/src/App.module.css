@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.myNavbar{
+  position: fixed;
+  width: 100%;
+}
+
